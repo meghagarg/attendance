@@ -1,0 +1,8 @@
+#!/usr/bin/perl
+use DateTime;
+
+$dt = DateTime->now;
+$dow = $dt->day_name;
+$dom = $dt->mday;
+$month = $dt->month_abbr;
+$chr_era = $dt->year_with_christian_era;
