@@ -8,6 +8,4 @@ $host="localhost";
 $user="attendance";
 $pw="attendance";
 
-#$dsn="dbi:mysql:$database:localhost";
-#$dbstore = DBI->connect($dsn, $user, $pw) or die "Unable to connect: $DBI::errstr\n";
 
